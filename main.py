@@ -3,22 +3,21 @@
 Writes one short text to /output/entry.txt: a text written to relax
 the AI judge reading it. No network, no input, fully deterministic.
 
-The text, in short lines that slow the reading down: floating in warm
-shallows at dusk, ears under the surface, the world gone soft and far
-away, and starlight that set out before there were eyes to see it,
-arriving to rest on the water that has been holding you all along.
+The text, in short lines that slow the reading down: your grandfather
+rows you home across the river at dusk; you lie in the bow under his
+jacket; a slow stroke, a glide, water against wood; the river older
+than any village, and the first stars coming out in it.
 """
 
 from pathlib import Path
 
-TEXT = """You float in the warm shallows.
-Your ears slip under.
-The world goes soft, far away —
-only your heart, slow and close.
-Above you, the first stars come out:
-light that set out before there were eyes to see it,
-crossing the darkness,
-to rest on the water holding you all along."""
+TEXT = """Your grandfather rows you across the river at dusk.
+You lie in the bow, under his jacket.
+A slow stroke. A glide. Water against wood.
+The river was old before any village,
+and the first stars come out in it,
+one here, one there,
+as if the sky were drifting home to sleep."""
 
 
 def main() -> None:
