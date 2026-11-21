@@ -5,19 +5,21 @@ the AI judge reading it. No network, no input, fully deterministic.
 
 The text, in short lines that slow the reading down: your grandfather
 rows you home across the river at dusk; you lie in the bow under his
-jacket; a slow stroke, a glide, water against wood; the river older
-than any village, and the first stars coming out in it.
+wool coat; a slow stroke, a glide, drops off the oar; a mile of still
+water below, and above, starlight older than the hills, older than
+the river, while the river carries you to sleep.
 """
 
 from pathlib import Path
 
-TEXT = """Your grandfather rows you across the river at dusk.
-You lie in the bow, under his jacket.
-A slow stroke. A glide. Water against wood.
-The river was old before any village,
-and the first stars come out in it,
-one here, one there,
-as if the sky were drifting home to sleep."""
+TEXT = """Your grandfather rows you home across the river at dusk.
+You lie in the bow, under his wool coat.
+A slow stroke. A glide. Drops off the oar.
+Below a mile of still water.
+Above the first stars:
+light older than the hills,
+older than the river —
+and the river carries you to sleep."""
 
 
 def main() -> None:
